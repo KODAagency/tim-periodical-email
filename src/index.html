@@ -468,12 +468,27 @@ title: Your New Jekyll Site
                     <tr>
                       <td>
 
-                        <table class="inner-wrapper">
+                        <table class="inner-wrapper footer-links">
                           <tr>
-                            <td class="visit-us"><a href="http://www.timgt.com" title="">VISIT US AT TIMGT.COM</a></td>
+                            <td><a href="http://www.timgt.com" title="">HOME</a></td>
                           </tr>
                           <tr>
-                            <td><a href="http://www.bbb.org/phoenix/business-reviews/financial-planning-consultants/total-investment-management-inc-in-scottsdale-az-1000035757" title=""><img src="https://gallery.mailchimp.com/deff6c1033d6648706fb8b26b/images/417edfc8-e145-4a1c-bebc-52e34251c95e.png" alt="BBB Accredited Business" class="bbb-logo"></a></td>
+                            <td><a href="http://www.timgt.com/company.php" title="">Company</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.timgt.com/services.php" title="">Services</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.timgt.com/client-center.php" title="">Client Center</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.timgt.com/blog/" title="">Market Update</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.timgt.com/airlines.php" title="">Airlines</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.timgt.com/contact.php" title="">Contact</a></td>
                           </tr>
                         </table>
 
@@ -500,7 +515,10 @@ title: Your New Jekyll Site
                             <td class="tel-alt">480.998.5735</td>
                           </tr>
                           <tr>
-                            <td><a href="http://www.linkedin.com/company/total-investment-management?trk=ppro_cprof" title=""><img src="https://gallery.mailchimp.com/deff6c1033d6648706fb8b26b/images/edc32ad7-7a18-4bff-9634-c1e28034bbe4.png" alt="LinkedIn" class="social-link-img" align="right"></a></td>
+                            <td style="padding-bottom:20px;"><a href="http://www.linkedin.com/company/total-investment-management?trk=ppro_cprof" title=""><img src="https://gallery.mailchimp.com/deff6c1033d6648706fb8b26b/images/5de2f1ee-b484-4407-95cb-32f794fb101b.png" alt="LinkedIn" class="social-link-img" align="right"></a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.bbb.org/phoenix/business-reviews/financial-planning-consultants/total-investment-management-inc-in-scottsdale-az-1000035757" title=""><img src="https://gallery.mailchimp.com/deff6c1033d6648706fb8b26b/images/417edfc8-e145-4a1c-bebc-52e34251c95e.png" alt="BBB Accredited Business" class="bbb-logo" align="right"></a></td>
                           </tr>
                         </table>
 
@@ -523,7 +541,7 @@ title: Your New Jekyll Site
 
                         <table class="inner-wrapper">
                           <tr>
-                            <td class="copyright">Copyright {{ site.time | date: "%Y" }}, Total Investment Management, Inc.</td>
+                            <td class="copyright">Copyright *|DATE:Y|*, Total Investment Management, Inc.</td>
                           </tr>
                         </table>
 
@@ -559,6 +577,22 @@ title: Your New Jekyll Site
         </tr>
       </table>
 
+    </td>
+  </tr>
+</table>
+
+<br><br>
+<table class="mc-footer">
+  <tr>
+    <td>
+      <center style="font-size:12px">
+
+        This email was sent to <a href="*|EMAIL|*">*|EMAIL|*</a><br>
+        Please note that unsubscribing from our emails does not cancel your service.<br>
+        <a href="*|UNSUB|*" style="color:#80880;text-decoration:underline">Remove me from this list</a><br>
+        *|LIST:ADDRESS|*
+
+      </center>
     </td>
   </tr>
 </table>
