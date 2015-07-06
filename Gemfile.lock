@@ -70,3 +70,6 @@ DEPENDENCIES
   jekyll (~> 2.5.3)
   redcarpet (~> 3.1)
   sass (~> 3.4.12)
+
+BUNDLED WITH
+   1.10.1
